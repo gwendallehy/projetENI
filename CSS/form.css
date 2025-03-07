@@ -1,0 +1,104 @@
+form{
+    width: 50vw;
+    min-width: 450px;
+    /* border: solid 3px black; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    background-color: #323432;
+    border-radius: 20px;
+}
+.valid::placeholder{
+    font-size: 15px;
+    color: #ff5858;
+}
+
+.section-form{
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
+    
+}
+p.valid,p.validOk{
+    font-size: small;
+    line-height: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+p.valid::before,p.validOk::before{
+    content: '';
+    display: inline-block;
+    margin-right: 10px;
+    height: 20px;
+    width: 20px;
+    background-image: url("../img/fleche.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 20px;
+
+}
+
+.valid{
+    color: #ff3f3f;
+}
+
+.valid[type=password]{
+    color: #D2D2D2;
+}
+
+.validOk{
+    color: #028857;
+    
+}
+
+.button-form{
+    display: flex;
+    flex-direction: row;
+}
+
+
+input[type="text"],input[type="email"],input[type="password"]{
+    border: none;
+    width: 400px;
+    text-align: center;
+    line-height: 40px;
+    outline: none;
+    background-color: transparent;
+    font-size: 20px;
+    border: none; 
+}
+
+#log div input #login{
+     color: #000000;
+}
+
+
+
+textarea:focus{
+    background-color: transparent;
+    font-size: 20px;
+    border: #FFEA2C 2px solid;
+    border-radius: 20px;
+}
+
+label, legend{
+    font-style: italic;
+    color: #D2D2D2;
+}
+
+button, input[type=submit]{
+    background-color: #FFEA2C;
+    width: 200px;
+    border: none;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 20px 5px;
+    cursor: pointer;
+    color: #000000;
+    font-weight: bold;
+}

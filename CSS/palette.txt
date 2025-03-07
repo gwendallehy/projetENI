@@ -1,0 +1,5 @@
+#D2D2D2 gris
+#FFEA2C jaune clair
+#FAC900 jaune gold
+#1F1F1F noir
+#323432 noirgris

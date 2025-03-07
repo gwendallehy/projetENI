@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mastermind</title>
+    <link rel="stylesheet" href="../CSS/style_main.css">
+    <link rel="stylesheet" href="../CSS/style_jeu.css">
+
+    <script src="../JAVA/script_jeu.js"></script>
+    <script src="../JAVA/unlogin.js"></script>
+</head>
+
+<body onload="userName()">
+    <header class="main">
+        <h1>M'<em>ENI</em>MIND - Le jeu !</h1>
+    </header>
+    <nav>
+        <a href="../index.html">L'accueil</a>
+        <a href="register.html">S'inscrire</a>
+        <a href="login.html">Se connecter</a>
+        <a href="account.html">Mon compte</a>
+        <a href="jeu.html">Le M'ENImind !</a>
+        <a href="jeu_memo.html">Le M'ENImory</a>
+        <a href=""><button type="button" class="logout" onclick="logout()">logout</button></a>
+
+    </nav>
+    <div id="jeu">
+
+        <header class="game">
+            <h1>Mastermind</h1>
+        </header>
+        <!-- onclick="game()" -->
+        <main>
+            <button onclick="game()" id="start">START GAME</button>
+            <button id="cheatButton" onclick="printCheat()">CHEAT MODE</button>
+            <div class="color-select" id="color-select" style="display: none;">
+                <h3>Les couleurs</h3>
+                <button class="red" onclick="putcolor('red')"></button>
+                <button class="orange" onclick="putcolor('orange')"></button>
+                <button class="green" onclick="putcolor('green')"></button>
+                <button class="purple" onclick="putcolor('purple')"></button>
+                <button class="yellow" onclick="putcolor('yellow')"></button>
+                <button class="blue" onclick="putcolor('blue')"></button>
+                <button class="black" onclick="putcolor('black')"></button>
+                <button class="white" onclick="putcolor('white')"></button>
+            </div>
+            <div class="try" id="cheat">
+
+            </div>
+            <div id="bob" class="disparaitre">
+                <img src="../img/bob.png" class="bob">
+            </div>
+            <div class="barre" id="barre"></div>
+            <div class="try" id="1">
+                <div class="rond-vide" id="rond-1"></div>
+                <div class="rond-vide" id="rond-2"></div>
+                <div class="rond-vide" id="rond-3"></div>
+                <div class="rond-vide" id="rond-4"></div>
+            </div>
+            <div class="try" id="2">
+                <div class="rond-vide" id="rond-5"></div>
+                <div class="rond-vide" id="rond-6"></div>
+                <div class="rond-vide" id="rond-7"></div>
+                <div class="rond-vide" id="rond-8"></div>
+            </div>
+            <div class="try" id="3">
+                <div class="rond-vide" id="rond-9"></div>
+                <div class="rond-vide" id="rond-10"></div>
+                <div class="rond-vide" id="rond-11"></div>
+                <div class="rond-vide" id="rond-12"></div>
+            </div>
+            <div class="try" id="4">
+                <div class="rond-vide" id="rond-13"></div>
+                <div class="rond-vide" id="rond-14"></div>
+                <div class="rond-vide" id="rond-15"></div>
+                <div class="rond-vide" id="rond-16"></div>
+            </div>
+            <div class="try" id="5">
+                <div class="rond-vide" id="rond-17"></div>
+                <div class="rond-vide" id="rond-18"></div>
+                <div class="rond-vide" id="rond-19"></div>
+                <div class="rond-vide" id="rond-20"></div>
+            </div>
+            <div class="try" id="6">
+                <div class="rond-vide" id="rond-21"></div>
+                <div class="rond-vide" id="rond-22"></div>
+                <div class="rond-vide" id="rond-23"></div>
+                <div class="rond-vide" id="rond-24"></div>
+            </div>
+            <div class="try" id="7">
+                <div class="rond-vide" id="rond-25"></div>
+                <div class="rond-vide" id="rond-26"></div>
+                <div class="rond-vide" id="rond-27"></div>
+                <div class="rond-vide" id="rond-28"></div>
+            </div>
+            
+            
+        </main>
+    </div>
+    <footer>
+
+    </footer>
+</body>
+
+</html>

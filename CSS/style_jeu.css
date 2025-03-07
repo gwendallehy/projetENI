@@ -1,0 +1,220 @@
+body{
+    margin: 0 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+header.game {
+    background-color: grey;
+    height: 100px;
+    margin: 0 0 0 0;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+header.main{
+    /* background-color: grey; */
+    height: 50px;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    
+}
+.disparaitre{
+    display: none;
+}
+.apparaitre{
+    display: flex;
+    width: auto;
+    text-align: center;
+    justify-content: center;
+}
+.bob{
+    width: 200px;
+}
+nav{
+    display: flex;
+    flex-direction: row
+}
+
+h1{
+    text-align: center;
+}
+div#jeu{
+    border: 10px solid black;
+    border-radius: 10px;
+}
+main{
+    background-color: lightgrey;
+    width: 840px;   
+}
+.try {
+    /* background-color:aqua ; */
+    flex-direction: initial;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(100px, 1fr));
+    padding-bottom: 20px;
+    justify-items: center;
+}
+.barre{
+    background-color: black;
+    width: 5px;
+    height: 638px;
+    position: absolute;
+    left: 50%;
+}
+
+.barreNon{
+display: none;
+}
+
+
+.rond-vide{
+    background-color: grey;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 100%;
+    border: solid black 2px;
+    display: block;
+}
+.color-select h3{
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    width: 840px;
+    
+}
+.color-select button{
+    margin-top: 50px;
+    
+}
+.color-select{
+    background-color: darkgray;
+    width: 840px;
+    height: 150px;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fill,minmax(100px, 1fr));
+}
+
+#start{
+    width: 840px;
+    height: 50px;
+    background-color: lightgreen;
+    font-weight: bold;
+    font-size: medium;
+    border: none;
+}
+
+#cheatButton{
+    width: 840px;
+    height: 50px;
+    background-color: rgb(255, 86, 86);
+    font-weight: bold;
+    font-size: medium;
+    border: none;
+}
+.nameus{
+    background: linear-gradient(to left,rgb(255, 17, 255),
+    rgb(192, 104, 255), rgb(154, 154, 255), rgb(101, 250, 101), rgb(155, 155, 0), orange, rgb(255, 82, 82));
+    background-clip: text;
+    color: transparent;
+    font-size: 35x;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+}
+
+#cheat{
+    display: flex;
+    justify-content: space-evenly;
+    width: 840px;
+    align-items: center;
+}
+
+.red{
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 100%;
+    border: solid black 2px;
+    display: block;
+}
+.green{
+    background-color: green;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 100%;
+    border: solid black 2px;
+    display: block;
+}
+.blue{
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 100%;
+    border: solid black 2px;
+    display: block;
+}
+.yellow{
+    background-color: yellow;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 100%;
+    border: solid black 2px;
+    display: block;
+}
+.white{
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 100%;
+    border: solid black 2px;
+    display: block;
+}
+.black{
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 100%;
+    border: solid black 2px;
+    display: block;
+}
+.orange{
+    background-color: orange;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 100%;
+    border: solid black 2px;
+    display: block;
+}
+.purple{
+    background-color: purple;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 100%;
+    border: solid black 2px;
+    display: block;
+}
+
+
+footer{
+    display: none;
+}
